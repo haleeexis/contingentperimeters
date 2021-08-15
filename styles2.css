@@ -3,12 +3,16 @@
   /* margin: 0; */
 }
 
+header {
+  font-size: 20px;
+}
+
 body {
   font-family: "Times New Roman", Times, serif;
-  color: black;
+  color: white;
   margin: 0;
   padding: 0;
-  background-color: white;
+  background-color: black;
   font-size: 16px;
 }
 p {
@@ -94,7 +98,7 @@ td, th {
 #gallery {
   display: grid;
   gap: 2em;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-template-rows: auto;
   padding-left: 2em;
   padding-right: 2em;
@@ -186,13 +190,13 @@ ul {
    #gallery {
     display: grid;
     gap: 2em;
-    grid-template-columns: 7fr 5fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     /* border: 1px solid black; */
   }
 
   #gallery div:nth-child(2n) {
-    align-self: center;
+    /* align-self: center; */
   }
 
   #indexLink {
