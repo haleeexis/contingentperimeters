@@ -1,0 +1,34 @@
+
+/* layout */
+
+
+#colu-a {
+  left: 23.83vw;
+  width 36.66vw;
+}
+
+#colu-a > div {
+  width: 35.66vw;
+  height: 35.66vw;
+  
+}
+
+#colu-b {
+  left: 60.49vw;
+  width: 36.66vw;
+}
+
+#colu-b > div {
+  width: 35.66vw;
+  height: 35.66vw;
+}
+
+#colu-c {
+  left: 5.5vw;
+  width: 18.33vw;
+}
+
+#colu-c > div {
+  width: 17.33vw;
+  height: 17.33vw;
+}
